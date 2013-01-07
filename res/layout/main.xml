@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <TextView
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
             android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+    <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+   <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+    <Button
+            android:id="@+id/Album"
+            android:text="@string/Album"
             android:layout_height="wrap_content"
-            android:text="Hey Bro!"
-            />
-</LinearLayout>
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/album"/>
+
+    <Button
+            android:id="@+id/Weather"
+            android:text="@string/Weather"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/weather"/>
+    <Button
+            android:id="@+id/Mood"
+            android:text="@string/Mood"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/mood"/>
+    <Button
+            android:id="@+id/Rating"
+            android:text="@string/Rating"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/rating"/>
+    <Button
+            android:id="@+id/NoPlayed"
+            android:text="@string/NoPlayed"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/noplayed"/>
+       <ImageView
+               android:padding="10dip"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:src="@drawable/gotback"/>
+        </GridLayout>
+    </RelativeLayout>
+    </ScrollView>
+
 

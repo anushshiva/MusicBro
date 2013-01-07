@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MusicBro</string>
+    <string name="Album">Albro</string>
+    <string name="Weather">Brovironment</string>
+    <string name="Mood">Brottitude</string>
+    <string name="Rating">Broting</string>
+    <string name="NoPlayed">Numbro</string>
 </resources>

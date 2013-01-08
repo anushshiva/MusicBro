@@ -27,16 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4645c8-734b-430f-a286-a9d13be3c417" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/brobg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/bro.png" afterPath="$PROJECT_DIR$/res/drawable/bro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/splash.xml" afterPath="$PROJECT_DIR$/res/layout/splash.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MusicBro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357657824604" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357666050922" ignored="false" />
     <file path="$USER_HOME$/Android/ActionBarSherlock-4.2.0/ActionBarSherlock/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357448886037" ignored="false" />
     <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357577228012" ignored="false" />
     <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357661838900" ignored="false" />
@@ -504,7 +499,11 @@
       <created>1357580882174</created>
       <updated>1357580882174</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Home Page Decoration">
+      <created>1357666062975</created>
+      <updated>1357666062975</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">

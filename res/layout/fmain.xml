@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/brobg">
+
+    <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true">
+            <Button
+                    android:id="@+id/Album"
+                    android:text="@string/Album"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/album"/>
+
+            <Button
+                    android:id="@+id/Weather"
+                    android:text="@string/Weather"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/weather"/>
+            <Button
+                    android:id="@+id/Mood"
+                    android:text="@string/Mood"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/mood"/>
+            <Button
+                    android:id="@+id/NoPlayed"
+                    android:text="@string/NoPlayed"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/noplayed"/>
+            <Button
+                    android:id="@+id/Rating"
+                    android:text="@string/Rating"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@drawable/rating"/>
+            <ImageView
+                    android:padding="25dip"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/sis"/>
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>
+
+

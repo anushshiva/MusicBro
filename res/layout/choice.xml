@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/blank">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Who are you?"
+              android:textColor="#000000"
+              android:gravity="center">
+              </TextView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+    <Button
+            android:id="@+id/male"
+            android:text="My Bro"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textColor="#000000"
+            android:drawableTop="@drawable/male"
+            android:layout_weight="1"
+         />
+
+    <Button
+            android:id="@+id/female"
+            android:text="My Sis"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textColor="#000000"
+            android:drawableTop="@drawable/female"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

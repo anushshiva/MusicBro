@@ -15,5 +15,6 @@
                   android:label="@string/app_name">  </activity>
         <activity android:name=".ChoiceActivity"></activity>
         <activity android:name=".FHomeActivity"></activity>
+        <activity android:name=".AlbumActivity"></activity>
     </application>
 </manifest>

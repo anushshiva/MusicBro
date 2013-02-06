@@ -28,85 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4645c8-734b-430f-a286-a9d13be3c417" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/bro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/bro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/brobg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/brobg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/brobg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/brobg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/gotback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/gotback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/gotback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/gotback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/mb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/mb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/mb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/mb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/mood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/mood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/mood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/noplayed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/noplayed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/noplayed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/noplayed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/rating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/rating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/rating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/rating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/sis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/sis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/sis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sisbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/sisbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/sisbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/sisbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/weather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/weather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/weather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/weather.png" />
-      <change type="DELETED" beforePath="C:\Users\anush\Documents\GitHub\MusicBro\src\com\AAAG\MusicBro\FHomeActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/album.png" afterPath="$PROJECT_DIR$/res/drawable/album.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/blank.png" afterPath="$PROJECT_DIR$/res/drawable/blank.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/bro.png" afterPath="$PROJECT_DIR$/res/drawable/bro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/gotback.png" afterPath="$PROJECT_DIR$/res/drawable/gotback.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/rating.png" afterPath="$PROJECT_DIR$/res/drawable/rating.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/sis.png" afterPath="$PROJECT_DIR$/res/drawable/sis.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/weather.png" afterPath="$PROJECT_DIR$/res/drawable/weather.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/R.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/femalemain.xml" afterPath="$PROJECT_DIR$/res/layout/femalemain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MusicBro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360167681509" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360171918334" ignored="false" />
     <file path="$USER_HOME$/Android/ActionBarSherlock-4.2.0/ActionBarSherlock/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357448886037" ignored="false" />
     <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360169905801" ignored="false" />
     <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357661838900" ignored="false" />
@@ -247,7 +173,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="572" selection-end="572" vertical-scroll-proportion="0.4913295">
+            <state line="8" column="106" selection-start="472" selection-end="472" vertical-scroll-proportion="0.39306358">
               <folding />
             </state>
           </provider>
@@ -691,7 +617,11 @@
       <created>1357831952123</created>
       <updated>1357831952123</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="resized images">
+      <created>1360171944774</created>
+      <updated>1360171944774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -762,7 +692,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="further designing" />
+    <option name="LAST_COMMIT_MESSAGE" value="resized images" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -780,6 +710,7 @@
     <MESSAGE value="Home Page Decoration" />
     <MESSAGE value="Home Desgin Done" />
     <MESSAGE value="further designing" />
+    <MESSAGE value="resized images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -901,7 +832,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="572" selection-end="572" vertical-scroll-proportion="0.4913295">
+        <state line="8" column="106" selection-start="472" selection-end="472" vertical-scroll-proportion="0.39306358">
           <folding />
         </state>
       </provider>

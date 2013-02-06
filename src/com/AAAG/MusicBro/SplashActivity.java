@@ -17,8 +17,12 @@ public class SplashActivity extends Activity  {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, ChoiceActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(SplashActivity.this, HomeActivity.class);
+                Intent intent2 = new Intent(SplashActivity.this, ChoiceActivity.class);
+                if(ChoiceActivity.chosen)
+                    startActivity(intent1);
+                else
+                    startActivity(intent2);
             }
         }, delay);
     }

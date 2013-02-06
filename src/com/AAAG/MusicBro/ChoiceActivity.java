@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class ChoiceActivity extends Activity {
 
-
+    public static boolean chosen;
+    public static boolean female;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,13 +24,17 @@ public class ChoiceActivity extends Activity {
         malebutton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
+               chosen = true;
+               female = false;
                 startActivity(new Intent(ChoiceActivity.this, HomeActivity.class));
            }
         });
         femalebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChoiceActivity.this, FHomeActivity.class));
+                female = true;
+                chosen = true;
+                startActivity(new Intent(ChoiceActivity.this, HomeActivity.class));
             }
         });
     }

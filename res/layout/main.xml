@@ -4,11 +4,6 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="@drawable/brobg">
-
-    <RelativeLayout
-            android:id="@+id/RelativeLayout01"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
                       android:orientation="horizontal"
                       android:columnCount="2"
@@ -52,7 +47,6 @@
                android:layout_width="wrap_content"
                android:src="@drawable/bro"/>
         </GridLayout>
-    </RelativeLayout>
     </ScrollView>
 
 

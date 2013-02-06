@@ -26,34 +26,37 @@ public class HomeActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        Button albumbutton;
-        albumbutton = (Button) findViewById(R.id.Album);
-        MediaMetadataRetriever mmr = new MediaMetadataRetriever();
-        File f = new File("/sdcard/");
-        int j=0;
-        for (File file : f.listFiles())
-        {
-            if(file.getName().endsWith(".mp3"))
-            {
-                String [] name = file.getName().split(".mp3");
-                String actualname="";
-                for(int i=0;i<name.length;i++)
-                    actualname +=name[i]+" ";
-               songname.add(actualname); j++;
-               filepath.add(file.getAbsolutePath());
-               mmr.setDataSource(String.valueOf(filepath));
-               album.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM));
-               artist.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ARTIST));
-                genre.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_GENRE));
-            }
-        }
-        albumbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, AlbumActivity.class));
-            }
-        });
+        if(ChoiceActivity.female)
+            setContentView(R.layout.femalemain);
+        else
+            setContentView(R.layout.main);
+//        Button albumbutton;
+//        albumbutton = (Button) findViewById(R.id.Album);
+//        MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+//        File f = new File("/sdcard/");
+//        int j=0;
+//        for (File file : f.listFiles())
+//        {
+//            if(file.getName().endsWith(".mp3"))
+//            {
+//                String [] name = file.getName().split(".mp3");
+//                String actualname="";
+//                for(int i=0;i<name.length;i++)
+//                    actualname +=name[i]+" ";
+//               songname.add(actualname); j++;
+//               filepath.add(file.getAbsolutePath());
+//               mmr.setDataSource(String.valueOf(filepath));
+//               album.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM));
+//               artist.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ARTIST));
+//                genre.add(mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_GENRE));
+//            }
+//        }
+//        albumbutton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(HomeActivity.this, AlbumActivity.class));
+//            }
+//        });
     }
     @Override
     public boolean onKeyDown(int keyCode,KeyEvent event)

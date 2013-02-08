@@ -27,20 +27,35 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c4645c8-734b-430f-a286-a9d13be3c417" name="Default" comment="">
+    <list default="true" id="6c4645c8-734b-430f-a286-a9d13be3c417" name="Default" comment="resized images">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Helper/SongDB.java" />
+      <change type="DELETED" beforePath="C:\Users\anush\Documents\GitHub\MusicBro\src\com\AAAG\MusicBro\AlbumActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicBro.iml" afterPath="$PROJECT_DIR$/MusicBro.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/femalemain.xml" afterPath="$PROJECT_DIR$/res/layout/femalemain.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/splash.xml" afterPath="$PROJECT_DIR$/res/layout/splash.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MusicBro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360171918334" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360346206463" ignored="false" />
     <file path="$USER_HOME$/Android/ActionBarSherlock-4.2.0/ActionBarSherlock/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357448886037" ignored="false" />
-    <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360169905801" ignored="false" />
-    <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357661838900" ignored="false" />
+    <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360340464683" ignored="false" />
+    <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360344987923" ignored="false" />
     <file path="/SplashActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1359302283101" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1359303153001" ignored="false" />
-    <file path="/main.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357664628135" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360224741958" ignored="false" />
+    <file path="/main.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360341405717" ignored="false" />
     <file path="/strings.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357578560797" ignored="false" />
-    <file path="/HomeActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1359303006440" ignored="false" />
+    <file path="/HomeActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360344639140" ignored="false" />
     <file path="/AlbumActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357750739616" ignored="false" />
     <file path="$USER_HOME$/Fellowship/fellowship/src/main/java/com/thoughtworks/pumpkin/SplashActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357709885164" ignored="false" />
     <file path="$USER_HOME$/Fellowship/fellowship/res/layout/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357709909746" ignored="false" />
@@ -60,7 +75,12 @@
     <file path="/choice.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357800156304" ignored="false" />
     <file path="/FHomeActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357836437738" ignored="false" />
     <file path="/fmain.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357835918701" ignored="false" />
-    <file path="/femalemain.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357836348972" ignored="false" />
+    <file path="/femalemain.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360341493828" ignored="false" />
+    <file path="$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/samples/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360339111400" ignored="false" />
+    <file path="$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/library/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360339111400" ignored="false" />
+    <file path="C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360339795251" ignored="false" />
+    <file path="/GridLayout.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360340243355" ignored="false" />
+    <file path="/SongDB.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360344505926" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,21 +143,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChoiceActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="36" column="40" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.38636363">
               <folding>
-                <element signature="e#613#621#0" expanded="true" />
+                <element signature="e#1065#1073#0" expanded="true" />
+                <element signature="e#2759#3031#0" expanded="true" />
+                <element signature="e#3020#3021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,52 +162,16 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="-2.72">
+            <state line="11" column="61" selection-start="516" selection-end="516" vertical-scroll-proportion="-3.74">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choice.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/choice.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="SongDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Helper/SongDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="19" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="106" selection-start="472" selection-end="472" vertical-scroll-proportion="0.39306358">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="femalemain.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/femalemain.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="-3.74">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplashActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="81" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -225,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/splash.xml" />
-        <option value="$PROJECT_DIR$/res/layout/album.xml" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/AlbumActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/resources.xml" />
         <option value="$PROJECT_DIR$/res/layout/dimens.xml" />
@@ -235,12 +209,15 @@
         <option value="$PROJECT_DIR$/res/layout/choice.xml" />
         <option value="$PROJECT_DIR$/res/layout/fmain.xml" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/FHomeActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/femalemain.xml" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout/src/com/gridlayout/GridLayout.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/femalemain.xml" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Helper/SongDB.java" />
+        <option value="$PROJECT_DIR$/res/layout/splash.xml" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -344,6 +321,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicBro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicBro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicBro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -375,10 +374,11 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -514,8 +514,8 @@
       <option name="ACTIVITY_CLASS" value="com.AAAG.MusicBro.SplashActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="Phone" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -621,35 +621,39 @@
       <created>1360171944774</created>
       <updated>1360171944774</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="resized images">
+      <created>1360172008474</created>
+      <updated>1360172008474</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927504" sideWeight="0.6707663" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.49761525" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5007949" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.9988932" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.9988932" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920382" sideWeight="0.67304623" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32695374" sideWeight="0.49682036" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24880762" sideWeight="0.67304623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32695374" sideWeight="0.4936407" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -720,20 +724,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="81" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="82" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="43" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.33235726" />
@@ -749,29 +739,9 @@
         <state line="9" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="-5.4" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/album.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/AAAG/MusicBro/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/AlbumActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="284" selection-end="284" vertical-scroll-proportion="0.27190334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="81" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/choice.xml">
@@ -779,40 +749,34 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="19" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="509" selection-end="509" vertical-scroll-proportion="0.6010101" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="76" selection-start="336" selection-end="336" vertical-scroll-proportion="0.25757575">
+        <state line="7" column="82" selection-start="387" selection-end="387" vertical-scroll-proportion="0.30050504">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#613#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/album.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="-2.72">
+        <state line="12" column="21" selection-start="435" selection-end="435" vertical-scroll-proportion="0.36889693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.3557423">
           <folding />
         </state>
       </provider>
@@ -822,7 +786,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="505" selection-end="505" vertical-scroll-proportion="-3.74">
+        <state line="53" column="70" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.3212341">
           <folding />
         </state>
       </provider>
@@ -832,8 +796,43 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="106" selection-start="472" selection-end="472" vertical-scroll-proportion="0.39306358">
+        <state line="28" column="43" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.5317919">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="61" selection-start="516" selection-end="516" vertical-scroll-proportion="-3.74">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Helper/SongDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="40" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.38636363">
+          <folding>
+            <element signature="e#1065#1073#0" expanded="true" />
+            <element signature="e#2759#3031#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

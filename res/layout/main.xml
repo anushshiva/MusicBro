@@ -4,12 +4,16 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="@drawable/brobg">
-   <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      android:orientation="horizontal"
-                      android:columnCount="2"
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
                       android:layout_width="fill_parent"
                       android:layout_height="fill_parent"
                       android:layout_centerVertical="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
     <Button
             android:id="@+id/Album"
             android:text="@string/Album"
@@ -23,6 +27,12 @@
             android:layout_height="match_parent"
             android:layout_width="wrap_content"
             android:drawableTop="@drawable/weather"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
     <Button
             android:id="@+id/Mood"
             android:text="@string/Mood"
@@ -35,6 +45,12 @@
                android:layout_height="match_parent"
                android:layout_width="wrap_content"
                android:drawableTop="@drawable/noplayed"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true">
     <Button
             android:id="@+id/Rating"
             android:text="@string/Rating"
@@ -46,7 +62,8 @@
                android:layout_height="wrap_content"
                android:layout_width="wrap_content"
                android:src="@drawable/bro"/>
-        </GridLayout>
+    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
 

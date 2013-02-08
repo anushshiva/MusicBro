@@ -4,6 +4,9 @@
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/library/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/samples/gen" includeSubdirectories="true" />
+      <directory url="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

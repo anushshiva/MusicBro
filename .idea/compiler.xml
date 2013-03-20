@@ -7,6 +7,9 @@
       <directory url="file://$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/library/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../android-gridlayout/android-gridlayout-master/samples/gen" includeSubdirectories="true" />
       <directory url="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v7/gridlayout/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../YWeatherGetter4a/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android_packages_apps_Music-gingerbread/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

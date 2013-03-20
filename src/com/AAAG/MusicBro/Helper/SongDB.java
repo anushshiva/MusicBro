@@ -2,7 +2,13 @@ package com.AAAG.MusicBro.Helper;
 
 public class SongDB {
 
-    public static String Name, Album, Artist, Genre, FilePath;
-    public static Integer Rating, NoPlayed;
+    public String Name, Album, Artist, Genre, FilePath;
+    public Integer Rating, NoPlayed;
+    public SongDB()
+    {
+        Name= Album= Artist= Genre= FilePath = null;
+        Rating = 0;
+        NoPlayed = 0;
+    }
 
 }

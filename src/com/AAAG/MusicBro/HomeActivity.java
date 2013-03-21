@@ -42,7 +42,7 @@ public class HomeActivity extends Activity {
         if(keyCode == KeyEvent.KEYCODE_BACK)
         {
             finish();
-            System.exit(0);
+            stopService(new Intent(String.valueOf(HomeActivity.this)));
         }
         return super.onKeyDown(keyCode,event);
     }

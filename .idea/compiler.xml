@@ -10,6 +10,8 @@
       <directory url="file://$PROJECT_DIR$/../YWeatherGetter4a/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../android_packages_apps_Music-gingerbread/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/gen" includeSubdirectories="true" />
+      <directory url="file://C:/6th sem/Android/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

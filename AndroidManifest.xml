@@ -19,5 +19,11 @@
                   android:label="@string/app_name">  </activity>
         <activity android:name=".ChoiceActivity"
                 android:noHistory="true"></activity>
+        <activity android:name=".Player.AndroidBuildingMusicPlayerActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.PlayListActivity"
+                  android:noHistory="true"></activity>
+        <activity android:name=".Player.SongList"
+                  android:noHistory="true"></activity>
     </application>
 </manifest>

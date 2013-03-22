@@ -6,14 +6,10 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
-import com.AAAG.MusicBro.Helper.SongDB;
-import java.util.ArrayList;
-import java.util.List;
+import com.AAAG.MusicBro.Player.AndroidBuildingMusicPlayerActivity;
+import com.AAAG.MusicBro.Player.PlayListActivity;
 
 public class HomeActivity extends Activity {
-
-    public static List<SongDB> Songs = new ArrayList<SongDB>();
-    public static int j=0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,12 +23,10 @@ public class HomeActivity extends Activity {
 //        Button moodbutton = (Button)findViewById(R.id.Mood);
 //        Button noplayedbutton = (Button)findViewById(R.id.NoPlayed);
 //        Button ratingbutton = (Button)findViewById(R.id.Rating);
-        final Intent LaunchIntent = getPackageManager().getLaunchIntentForPackage("com.androidhive.musicplayer");
-
         albumbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(LaunchIntent);
+                startActivity(new Intent(HomeActivity.this, PlayListActivity.class));
             }
         });
     }

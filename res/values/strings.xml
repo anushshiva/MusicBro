@@ -6,4 +6,5 @@
     <string name="Mood">Brottitude</string>
     <string name="Rating">Broting</string>
     <string name="NoPlayed">Numbro</string>
+    <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
 </resources>

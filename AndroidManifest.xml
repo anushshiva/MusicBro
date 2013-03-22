@@ -25,5 +25,7 @@
                   android:noHistory="true"></activity>
         <activity android:name=".Player.SongList"
                   android:noHistory="true"></activity>
+        <activity android:name=".MoodActivity"
+                  android:noHistory="true"></activity>
     </application>
 </manifest>

@@ -14,6 +14,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import com.AAAG.MusicBro.HomeActivity;
+import com.AAAG.MusicBro.MoodActivity;
 import com.AAAG.MusicBro.R;
 
 public class SongList extends ListActivity {
@@ -24,7 +26,7 @@ public class SongList extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.playlist);
-
+        String album, genre;
         final ArrayList<HashMap<String, String>> songsListData = new ArrayList<HashMap<String, String>>();
         MediaMetadataRetriever mmr = new MediaMetadataRetriever();
         SongsManager plm = new SongsManager();
@@ -32,10 +34,12 @@ public class SongList extends ListActivity {
         for (int i = 0; i < songsList.size(); i++) {
             HashMap<String, String> song = songsList.get(i);
             mmr.setDataSource(song.get("songPath"));
-            String album = mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM);
+            album = mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM);
+            genre =  mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_GENRE);
             if(album==null)album="Unknown";
-            if(PlayListActivity.Album.equals(album))
-                songsListData.add(song);
+            if(genre==null)genre = "Unknown";
+            if(HomeActivity.Option==1)if(PlayListActivity.Album.equals(album))songsListData.add(song);
+            if(HomeActivity.Option==2)if(MoodActivity.Mood.equals(genre) || MoodActivity.Mood.equals("Anything")) songsListData.add(song);
         }
 
         ListAdapter adapter = new SimpleAdapter(this, songsListData,
@@ -62,7 +66,10 @@ public class SongList extends ListActivity {
     public boolean onKeyDown(int keyCode,KeyEvent event)
     {
         if(keyCode == KeyEvent.KEYCODE_BACK)
-            startActivity(new Intent(SongList.this, PlayListActivity.class));
+        {
+            if(HomeActivity.Option==1)startActivity(new Intent(SongList.this, PlayListActivity.class));
+            if(HomeActivity.Option==2)startActivity(new Intent(SongList.this, MoodActivity.class));
+        }
         return super.onKeyDown(keyCode,event);
     }
 }

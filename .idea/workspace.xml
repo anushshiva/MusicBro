@@ -3,7 +3,7 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="Nexus 7" />
+        <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-17" />
         <option name="theme" value="Theme" />
@@ -28,23 +28,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4645c8-734b-430f-a286-a9d13be3c417" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/CountActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/RatingActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Song.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/R.java" afterPath="$PROJECT_DIR$/gen/com/AAAG/MusicBro/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongList.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java" afterPath="$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/player.xml" afterPath="$PROJECT_DIR$/res/layout/player.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MusicBro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363962363680" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364560650179" ignored="false" />
     <file path="$USER_HOME$/Android/ActionBarSherlock-4.2.0/ActionBarSherlock/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357448886037" ignored="false" />
     <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363963474353" ignored="false" />
     <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360344987923" ignored="false" />
     <file path="/SplashActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1359302283101" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363935987152" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364557726893" ignored="false" />
     <file path="/main.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360341405717" ignored="false" />
     <file path="/strings.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357578560797" ignored="false" />
-    <file path="/HomeActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363934993151" ignored="false" />
+    <file path="/HomeActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364555749803" ignored="false" />
     <file path="/AlbumActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357750739616" ignored="false" />
     <file path="$USER_HOME$/Fellowship/fellowship/src/main/java/com/thoughtworks/pumpkin/SplashActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357709885164" ignored="false" />
     <file path="$USER_HOME$/Fellowship/fellowship/res/layout/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357709909746" ignored="false" />
@@ -77,11 +89,15 @@
     <file path="/ArtistAlbumBrowserActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363360487851" ignored="false" />
     <file path="/MediaPlaybackService.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363360578078" ignored="false" />
     <file path="/SongsManager.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363863475983" ignored="false" />
-    <file path="/player.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363807181563" ignored="false" />
-    <file path="/AndroidBuildingMusicPlayerActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363931895104" ignored="false" />
-    <file path="/PlayListActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363886698187" ignored="false" />
-    <file path="/SongList.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363965639455" ignored="false" />
-    <file path="/MoodActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363963670213" ignored="false" />
+    <file path="/player.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364494399473" ignored="false" />
+    <file path="/AndroidBuildingMusicPlayerActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364554344251" ignored="false" />
+    <file path="/PlayListActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364539507679" ignored="false" />
+    <file path="/SongList.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364555055063" ignored="false" />
+    <file path="/MoodActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364552097254" ignored="false" />
+    <file path="/CountActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364375214275" ignored="false" />
+    <file path="/playlist_item.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364373894534" ignored="false" />
+    <file path="/MyAndroidAppActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364375671880" ignored="false" />
+    <file path="/RatingActivity.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364555462561" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,37 +160,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java">
+      <file leaf-file-name="PlayListActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="27" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoodActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java">
+      <file leaf-file-name="CountActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/CountActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="41" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.5112782">
-              <folding>
-                <element signature="e#787#803#0" expanded="true" />
-                <element signature="e#858#874#0" expanded="true" />
-                <element signature="e#929#945#0" expanded="true" />
-                <element signature="e#1000#1016#0" expanded="true" />
-                <element signature="e#1071#1087#0" expanded="true" />
-                <element signature="e#1142#1158#0" expanded="true" />
-                <element signature="e#1213#1229#0" expanded="true" />
-                <element signature="e#1284#1300#0" expanded="true" />
-                <element signature="e#1355#1371#0" expanded="true" />
-                <element signature="e#1426#1442#0" expanded="true" />
-                <element signature="e#1498#1514#0" expanded="true" />
-                <element signature="e#1570#1586#0" expanded="true" />
-                <element signature="e#1642#1658#0" expanded="true" />
-                <element signature="e#1714#1730#0" expanded="true" />
-                <element signature="e#3278#3644#0" expanded="true" />
-                <element signature="e#3633#3634#0" expanded="true" />
-              </folding>
+            <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RatingActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/RatingActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,9 +190,76 @@
       <file leaf-file-name="SongList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="45" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
+            <state line="38" column="107" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2875#3423#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongsManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChoiceActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.51704544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidBuildingMusicPlayerActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="322" column="90" selection-start="12094" selection-end="12094" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#8934#9461#0" expanded="true" />
+                <element signature="e#9450#9451#0" expanded="true" />
+                <element signature="e#10725#11315#0" expanded="true" />
+                <element signature="e#11300#11301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="42" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/player.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -213,21 +288,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/SongsManager.java" />
-        <option value="$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/PlayListActivity.java" />
-        <option value="$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/SongList.java" />
-        <option value="$PROJECT_DIR$/../Player/AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/AndroidBuildingMusicPlayerActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongsManager.java" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/Utilities.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/playlist_item.xml" />
+        <option value="C:/6th sem/Android/MyAndroidApp/src/com/mkyong/android/MyAndroidAppActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/CountActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongsManager.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Song.java" />
         <option value="$PROJECT_DIR$/res/layout/player.xml" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/RatingActivity.java" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/RatingActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/CountActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java" />
         <option value="$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongList.java" />
       </list>
     </option>
@@ -236,10 +311,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -287,7 +362,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,26 +420,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicBro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicBro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Player" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.Phone">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -537,10 +619,26 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="MusicBro" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="MusicBro" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Phone" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.Player" />
       <item index="2" class="java.lang.String" itemvalue="Android Application.AndroidBuildingMusicPlayer" />
+      <item index="3" class="java.lang.String" itemvalue="Android Application.MusicBro" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -640,29 +738,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6740614" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32593855" sideWeight="0.5007949" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76714516" sideWeight="0.9988932" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24734446" sideWeight="0.21501707" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24801272" sideWeight="0.67783093" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32216907" sideWeight="0.4936407" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2469697" sideWeight="0.6808874" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31911263" sideWeight="0.4936407" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22121212" sideWeight="0.6808874" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946378" sideWeight="0.6707663" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6740614" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32575756" sideWeight="0.6808874" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -738,121 +836,134 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/PlayListActivity.java">
+    <entry file="file://C:/6th sem/Android/MyAndroidApp/src/com/mkyong/android/MyAndroidAppActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="38" selection-start="38" selection-end="2682" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/SongList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="38" selection-end="3220" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/SongsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="21" selection-start="38" selection-end="3213" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AndroidBuildingMusicPlayer/AndroidBuildingMusicPlayer/src/com/androidhive/musicplayer/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="39" selection-end="1840" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="83" selection-start="1186" selection-end="1254" vertical-scroll-proportion="0.0">
+        <state line="5" column="25" selection-start="134" selection-end="134" vertical-scroll-proportion="0.24147727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.09189189" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/player.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="32" selection-start="1593" selection-end="1593" vertical-scroll-proportion="-2.02029" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/layout/playlist.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1358" selection-end="1358" vertical-scroll-proportion="-0.1412037">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-17/android/os/Handler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Song.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.33174226" />
+        <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.79137933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="63" selection-start="498" selection-end="498" vertical-scroll-proportion="-7.9506803">
+        <state line="5" column="39" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="27" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="52" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongsManager.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/player.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="366" selection-end="366" vertical-scroll-proportion="-1.6190476">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/CountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/PlayListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="95" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.5657238">
+        <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/RatingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="42" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/AndroidBuildingMusicPlayerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="90" selection-start="12094" selection-end="12094" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#8934#9461#0" expanded="true" />
+            <element signature="e#9450#9451#0" expanded="true" />
+            <element signature="e#10725#11315#0" expanded="true" />
+            <element signature="e#11300#11301#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/Player/SongList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="38" column="107" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2875#3423#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/MoodActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.5112782">
-          <folding>
-            <element signature="e#787#803#0" expanded="true" />
-            <element signature="e#858#874#0" expanded="true" />
-            <element signature="e#929#945#0" expanded="true" />
-            <element signature="e#1000#1016#0" expanded="true" />
-            <element signature="e#1071#1087#0" expanded="true" />
-            <element signature="e#1142#1158#0" expanded="true" />
-            <element signature="e#1213#1229#0" expanded="true" />
-            <element signature="e#1284#1300#0" expanded="true" />
-            <element signature="e#1355#1371#0" expanded="true" />
-            <element signature="e#1426#1442#0" expanded="true" />
-            <element signature="e#1498#1514#0" expanded="true" />
-            <element signature="e#1570#1586#0" expanded="true" />
-            <element signature="e#1642#1658#0" expanded="true" />
-            <element signature="e#1714#1730#0" expanded="true" />
-            <element signature="e#3278#3644#0" expanded="true" />
-            <element signature="e#3633#3634#0" expanded="true" />
-          </folding>
+        <state line="44" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.51704544">
+          <folding />
         </state>
       </provider>
     </entry>

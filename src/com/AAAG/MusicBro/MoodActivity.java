@@ -65,4 +65,13 @@ public class MoodActivity extends ListActivity {
             }
         });
     }
+    @Override
+    public boolean onKeyDown(int keyCode,KeyEvent event)
+    {
+        if(keyCode == KeyEvent.KEYCODE_BACK)
+            startActivity(new Intent(MoodActivity.this, HomeActivity.class));
+        return super.onKeyDown(keyCode,event);
+    }
+
 }
+

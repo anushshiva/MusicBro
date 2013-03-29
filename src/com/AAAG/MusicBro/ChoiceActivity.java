@@ -3,6 +3,7 @@ package com.AAAG.MusicBro;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -27,6 +28,11 @@ public class ChoiceActivity extends Activity {
            public void onClick(View view) {
                chosen = true;
                female = false;
+               SharedPreferences settings = getSharedPreferences("MyPrefs",0);
+               SharedPreferences.Editor editor = settings.edit();
+               editor.putBoolean("chosen", chosen);
+               editor.putBoolean("female",female);
+               editor.commit();
                 startActivity(new Intent(ChoiceActivity.this, HomeActivity.class));
            }
         });
@@ -35,19 +41,13 @@ public class ChoiceActivity extends Activity {
             public void onClick(View view) {
                 female = true;
                 chosen = true;
+                SharedPreferences settings = getSharedPreferences("MyPrefs",0);
+                SharedPreferences.Editor editor = settings.edit();
+                editor.putBoolean("chosen", chosen);
+                editor.putBoolean("female",female);
+                editor.commit();
                 startActivity(new Intent(ChoiceActivity.this, HomeActivity.class));
             }
         });
     }
-    @Override
-    public boolean onKeyDown(int keyCode,KeyEvent event)
-    {
-        if(keyCode == KeyEvent.KEYCODE_BACK)
-        {
-            finish();
-            stopService(new Intent(String.valueOf(ChoiceActivity.this)));
-        }
-        return super.onKeyDown(keyCode,event);
-    }
-
 }

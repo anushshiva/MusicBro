@@ -7,16 +7,14 @@ import java.util.Random;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.ImageButton;
-import android.widget.SeekBar;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 import com.AAAG.MusicBro.HomeActivity;
 import com.AAAG.MusicBro.R;
 
@@ -42,16 +40,17 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
     private Utilities utils;
     private int seekForwardTime = 5000; // 5000 milliseconds
     private int seekBackwardTime = 5000; // 5000 milliseconds
-    private int currentSongIndex = 0;
+    public static int currentSongIndex = 0;
     private boolean isShuffle = false;
     private boolean isRepeat = false;
-    private ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
+    public String songName;
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.player);
+
 
         // All player buttons
         btnPlay = (ImageButton) findViewById(R.id.btnPlay);
@@ -66,7 +65,6 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         songTitleLabel = (TextView) findViewById(R.id.songTitle);
         songCurrentDurationLabel = (TextView) findViewById(R.id.songCurrentDurationLabel);
         songTotalDurationLabel = (TextView) findViewById(R.id.songTotalDurationLabel);
-
         // Mediaplayer
 
         mp = new MediaPlayer();
@@ -78,10 +76,9 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         mp.setOnCompletionListener(this); // Important
 
         // Getting all songs list
-        songsList = songManager.getSongs();
 
         // By default play first song
-        playSong(SongList.songIndex);
+        playSong(currentSongIndex);
 
         /**
          * Play button click event
@@ -163,7 +160,7 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
             @Override
             public void onClick(View arg0) {
                 // check if next song is there or not
-                if(currentSongIndex < (songsList.size() - 1)){
+                if(currentSongIndex < (SongList.songsList.size() - 1)){
                     playSong(currentSongIndex + 1);
                     currentSongIndex = currentSongIndex + 1;
                 }else{
@@ -188,8 +185,8 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
                     currentSongIndex = currentSongIndex - 1;
                 }else{
                     // play last song
-                    playSong(songsList.size() - 1);
-                    currentSongIndex = songsList.size() - 1;
+                    currentSongIndex = SongList.songsList.size() - 1;
+                    playSong(currentSongIndex);
                 }
 
             }
@@ -251,8 +248,9 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
 
             @Override
             public void onClick(View arg0) {
-                mp.stop();
-                startActivity(new Intent(AndroidBuildingMusicPlayerActivity.this, PlayListActivity.class));
+                if(HomeActivity.Option==1)startActivity(new Intent(AndroidBuildingMusicPlayerActivity.this, PlayListActivity.class));
+                else if(HomeActivity.Option==3) startActivity(new Intent(AndroidBuildingMusicPlayerActivity.this,CountActivity.class));
+                else if(HomeActivity.Option==4) startActivity(new Intent(AndroidBuildingMusicPlayerActivity.this,RatingActivity.class));
             }
         });
 
@@ -266,15 +264,44 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         // Play song
         try {
             mp.reset();
-            mp.setDataSource(songsList.get(songIndex).get("songPath"));
+            mp.setDataSource(SongList.songsList.get(songIndex).path);
             mp.prepare();
             mp.start();
+            songName=SongList.songsList.get(songIndex).name;
+            SongList.songsList.get(songIndex).count++;
+            //Song.count=SongList.songsList.get(songIndex).count;
+            SharedPreferences settings = getSharedPreferences("MyPrefs",0);
+            SharedPreferences.Editor editor = settings.edit();
+            editor.putInt(songName, SongList.songsList.get(songIndex).count);
+            editor.commit();
+
+
             // Displaying Song title
-            String songTitle = songsList.get(songIndex).get("songTitle");
+            String songTitle = SongList.songsList.get(songIndex).name;
             songTitleLabel.setText(songTitle);
+            final int rateIndex=songIndex;
+            RatingBar rating = (RatingBar) findViewById(R.id.ratingbar);
+            rating.setRating(SongList.songsList.get(rateIndex).rating);
+            //if rating is changed,
+            //display the current rating value in the result (textview) automatically
+            rating.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+                public void onRatingChanged(RatingBar ratingBar, float rating,
+                                            boolean fromUser) {
+                    SongList.songsList.get(rateIndex).rate((int) ratingBar.getRating());
+                    SharedPreferences settings = getSharedPreferences("MyPrefs",0);
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putInt(songName+"r", SongList.songsList.get(rateIndex).rating);
+                    editor.commit();
+                }
+            });
+
+
+
+            //Toast.makeText(getApplicationContext(),"Count :"+SongList.songsList.get(songIndex).count+"Rating : "+SongList.songsList.get(songIndex).rating,Toast.LENGTH_LONG).show();
 
             // Changing Button Image to pause image
             btnPlay.setImageResource(R.drawable.btn_pause);
+
 
             // set Progress bar values
             songProgressBar.setProgress(0);
@@ -291,6 +318,7 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         }
     }
 
+
     /**
      * Update timer on seekbar
      * */
@@ -305,21 +333,21 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         public void run() {
             if(mp.isPlaying())
             {
-            long totalDuration = mp.getDuration();
-            long currentDuration = mp.getCurrentPosition();
+                long totalDuration = mp.getDuration();
+                long currentDuration = mp.getCurrentPosition();
 
-            // Displaying Total Duration time
-            songTotalDurationLabel.setText(""+utils.milliSecondsToTimer(totalDuration));
-            // Displaying time completed playing
-            songCurrentDurationLabel.setText(""+utils.milliSecondsToTimer(currentDuration));
+                // Displaying Total Duration time
+                songTotalDurationLabel.setText(""+utils.milliSecondsToTimer(totalDuration));
+                // Displaying time completed playing
+                songCurrentDurationLabel.setText(""+utils.milliSecondsToTimer(currentDuration));
 
-            // Updating progress bar
-            int progress = (int)(utils.getProgressPercentage(currentDuration, totalDuration));
-            //Log.d("Progress", ""+progress);
-            songProgressBar.setProgress(progress);
+                // Updating progress bar
+                int progress = (int)(utils.getProgressPercentage(currentDuration, totalDuration));
+                //Log.d("Progress", ""+progress);
+                songProgressBar.setProgress(progress);
 
-            // Running this thread after 100 milliseconds
-            mHandler.postDelayed(this, 100);
+                // Running this thread after 100 milliseconds
+                mHandler.postDelayed(this, 100);
             }
         }
     };
@@ -372,11 +400,11 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
         } else if(isShuffle){
             // shuffle is on - play a random song
             Random rand = new Random();
-            currentSongIndex = rand.nextInt((songsList.size() - 1) - 0 + 1) + 0;
+            currentSongIndex = rand.nextInt((SongList.songsList.size() - 1) - 0 + 1) + 0;
             playSong(currentSongIndex);
         } else{
             // no repeat or shuffle ON - play next song
-            if(currentSongIndex < (songsList.size() - 1)){
+            if(currentSongIndex < (SongList.songsList.size() - 1)){
                 playSong(currentSongIndex + 1);
                 currentSongIndex = currentSongIndex + 1;
             }else{
@@ -390,17 +418,9 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
     @Override
     public void onDestroy(){
         super.onDestroy();
+        mHandler.removeCallbacks(mUpdateTimeTask);
         mp.release();
     }
-    @Override
-    public boolean onKeyDown(int keyCode,KeyEvent event)
-    {
-        if(keyCode == KeyEvent.KEYCODE_BACK)
-        {
-            mp.stop();
-            startActivity(new Intent(AndroidBuildingMusicPlayerActivity.this, SongList.class));
-        }
-        return super.onKeyDown(keyCode,event);
-    }
+
 
 }

@@ -32,7 +32,7 @@
     </list>
     <ignored path="MusicBro.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364562591553" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1364562626498" ignored="false" />
     <file path="$USER_HOME$/Android/ActionBarSherlock-4.2.0/ActionBarSherlock/project.properties" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1357448886037" ignored="false" />
     <file path="/fragment.java" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1363963474353" ignored="false" />
     <file path="/splash.xml" changelist="6c4645c8-734b-430f-a286-a9d13be3c417" time="1360344987923" ignored="false" />
@@ -204,7 +204,7 @@
       <file leaf-file-name="ChoiceActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.51704544">
+            <state line="42" column="40" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.42045453">
               <folding />
             </state>
           </provider>
@@ -722,7 +722,11 @@
       <created>1364562606741</created>
       <updated>1364562606741</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rating and count&#10;">
+      <created>1364562631829</created>
+      <updated>1364562631829</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -951,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/AAAG/MusicBro/ChoiceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="9" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.51704544">
+        <state line="42" column="40" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.42045453">
           <folding />
         </state>
       </provider>
